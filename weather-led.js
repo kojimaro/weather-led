@@ -5,7 +5,7 @@ var board    = new five.Board();
 var anode;
 var colorCode;
 const URL    = 'http://api.openweathermap.org/data/2.5/weather';
-const APPID  = "your app id.";
+const APPID  = "your api key.";
 const CITYID = "your city id.";
 
 board.on("ready", function() {
